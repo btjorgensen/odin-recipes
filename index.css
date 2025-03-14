@@ -20,5 +20,27 @@ h1 {
 }
 
 #menu {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    gap: 32px;
+}
+
+.items {
+    max-width: 300px;
+}
+
+div img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
 }
